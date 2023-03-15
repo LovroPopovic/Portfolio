@@ -1,0 +1,112 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+:root {
+    /*font*/
+    --body-font: 'Roboto Slab', serif;
+    --normal-font-size: 1 rem;
+    --small-font-size: 0.875 rem;
+    --smaller-font-size: 0.82 rem;
+    --h1-fontsize: 2 rem;
+    --h2-fontsize: 1.4 rem;
+    --h3-fontsize: 1.2 rem;
+
+
+    /*weight(font)*/
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+
+    /*color*/
+    --first-color: hsl(237, 100%, 50%);
+    --title-color: hsl(0, 0%, 50%);
+    --text-color: hsl(0, 0%, 100%);
+    --body-color: hsl(211, 12%, 48%);
+    --containter-color: hsl(211, 12%, 48%);
+
+
+    /*shadow*/
+    --shadow: 0px 8px 15px 0px rgb(70 70 100 /10%);
+
+
+    --border-radius: 25px;
+}
+
+
+hmtl {
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+button,
+textarea,
+input {
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+body {
+    background-color: var(--body-color);
+    line-height: 2;
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--title-color);
+    font-weight: var(--font-semibold);
+    line-height: 1.2;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.grid {
+    display: grid;
+}
+
+.container {
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1080px;
+}
+
+.section {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.section_title {
+    font-size: var(--h1-fontsize);
+    margin-left: 0.85;
+    font-weight: var(--font-bold);
+    position: relative;
+}

@@ -4,7 +4,7 @@ import "./resume.css"
 
 const Resume = () => {
   return (
-    <div>resume</div>
+    <div>Resume</div>
   )
 }
 export default Resume

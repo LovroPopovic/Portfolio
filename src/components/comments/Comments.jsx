@@ -3,7 +3,7 @@ import "./comments.css"
 
 const Comments = () => {
   return (
-    <div>comments</div>
+    <div>Comments</div>
   )
 }
 
