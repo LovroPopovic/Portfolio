@@ -1,0 +1,39 @@
+    .aside {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: var(--text-color);
+        border-right: 2px solid rgba(0, 0, 0, 0.05);
+        padding: 1.5rem;
+        width: 100px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 10;
+    }
+
+    .nav_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        /* increase the padding to make the icons thicker */
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        width: 70px;
+        /* increase the width to make the icons bigger */
+        height: 70px;
+        /* increase the height to make the icons bigger */
+        font-size: 1.8rem;
+        /* adjust the font-size to make the icons appear larger */
+    }

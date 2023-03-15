@@ -18,15 +18,6 @@ const App = () => {
   return (
     <>
     <Sidebar/>
-    <main className='main'>
-      <Home/>
-      <About/>
-      <Resume/>
-      <Services/>
-      <Portfolio/>
-      <Comments/>
-      <Contact/>
-    </main>
     </>
   );
 }

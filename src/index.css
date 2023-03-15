@@ -18,11 +18,11 @@
     --font-bold: 700;
 
 
-    --first-color: hsl(237, 100%, 50%);
-    --title-color: hsl(0, 0%, 50%);
-    --text-color: hsl(0, 0%, 100%);
-    --body-color: hsl(211, 12%, 48%);
-    --containter-color: hsl(211, 12%, 48%);
+    --first-color: #007aff;
+    --title-color: #212529;
+    --text-color: #ffffff;
+    --body-color: #495057;
+    --container-color: #495057f;
 
 
 
