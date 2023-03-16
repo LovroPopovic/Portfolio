@@ -27,13 +27,20 @@
         align-items: center;
         justify-content: center;
         padding: 2rem;
-        /* increase the padding to make the icons thicker */
         border-radius: 50%;
         background-color: #f2f2f2;
         width: 70px;
-        /* increase the width to make the icons bigger */
         height: 70px;
-        /* increase the height to make the icons bigger */
         font-size: 1.8rem;
-        /* adjust the font-size to make the icons appear larger */
+    }
+
+    .nav_link:hover {
+        color: hsl(147, 50%, 47%);
+    }
+
+    .copyright {
+        font-size: var(--small-font-size);
+        transform: rotate(-180deg);
+        writing-mode: vertical-rl;
+        color: #000000;
     }
