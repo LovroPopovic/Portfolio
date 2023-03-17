@@ -4,19 +4,19 @@ const HeadersNetworks = () => {
   return (
     <div className='home_networks'>
         <a href=' ' className='home_network_link' target="_blank">
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fab fa-instagram"></i>
         </a>
 
         <a href='google.com' className='home_network_link' target="_blank">
-        <i class="fa-brands fa-linkedin"></i>
+        <i className="fab fa-linkedin"></i>
         </a>
 
         <a href='google.com' className='home_network_link' target="_blank">
-        <i class="fa-brands fa-square-github"></i>
+        <i className="fab fa-github-square"></i>
         </a>
 
         <a href='google.com' className='home_network_link' target="_blank">
-        <i class="fa-brands fa-twitter"></i>
+        <i className="fab fa-twitter"></i>
         </a>
     </div>
   )
