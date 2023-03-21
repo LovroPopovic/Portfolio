@@ -7,7 +7,7 @@ import Home from "./components/home/Home"
 import Portfolio from "./components/portfolio/Portfolio"
 import Resume from "./components/resume/Resume"
 import Services from "./components/services/Services"
-import Sidebar from "./components/sidebar/sidebar"
+import Sidebar from "./components/sidebar/Sidebar"
 
 
 
