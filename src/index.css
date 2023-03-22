@@ -12,7 +12,7 @@
         --font-medium: 500;
         --font-semibold: 600;
         --font-bold: 700;
-        --first-color: #2ecc71;
+        --first-color: #36A166;
         /* change to a green color */
         --title-color: #212529;
         --body-color: #6c757d;
@@ -30,7 +30,7 @@
         /* change text color to white */
         display: inline-block;
         font-weight: var(--font-bold);
-        background-color: #2ecc71;
+        background-color: #36A166;
         /* change button color to the same green color */
     }
 
@@ -127,28 +127,6 @@
         margin-bottom: 4rem;
         font-weight: var(--font-bold);
         position: relative;
-    }
-
-    .section_title::before {
-        content: '';
-        background: url(./assets/bg.svg);
-        width: 2rem;
-        height: 2rem;
-        position: absolute;
-        right: -1rem;
-        left: -1rem;
-
-    }
-
-    .btn {
-        padding: 1rem 2.25rem;
-        line-height: 2;
-        box-shadow: 0 0 0 rgb(0 0 0 / 0%);
-        border: 1px solid transparent;
-        color: hsl(211, 12%, 48%);
-        display: inline-block;
-        font-weight: var(--font-bold);
-        background-color: var(--first-color);
     }
 
     .btn:hover {
