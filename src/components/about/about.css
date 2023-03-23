@@ -17,6 +17,12 @@
 
 }
 
+.about_img {
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
 .about_description {
     text-align: justify;
     text-justify: inter-word;

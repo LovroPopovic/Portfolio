@@ -1,6 +1,6 @@
 import React from 'react'
 import "./home.css"
-import Avatar from "../../assets/avatar.png"
+import Avatar from "../../assets/avatar1.png"
 import HeadersNetworks from './HeadersNetworks'
 import Scroll from './Scroll'
 

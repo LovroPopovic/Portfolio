@@ -1,12 +1,13 @@
 import React from 'react'
 import "./about.css"
+import Avatar from "../../assets/avatar.png"
 
 const About = () => {
   return (
     <section className="about container section" id="about">
       <h2 className="section_title">About Me</h2>
       <div className="about_container grid">
-        <img src="" alt="" className="about_img" />
+        <img src={Avatar} alt="" className="about_img" />
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">I'm Lovro Popovic, a web developer and informatics and digital technologies student based in Rijeka, Croatia. 
@@ -32,7 +33,7 @@ const About = () => {
               <div className="skills_data">
                 <div className="skills_titles">
                   <h3 className="skills_name">UI/UX Design</h3>
-                  <span className="skills_number UIUX" ></span>
+                  <span className="skills_number UIUX"></span>
                 </div>
                 <div className="skills_bar">
                   <span className="skill_perc">30%</span>
