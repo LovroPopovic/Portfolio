@@ -1,4 +1,5 @@
 import React from 'react'
+import "./about.css"
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
               <div className="skills_data">
                 <div className="skills_titles">
                   <h3 className="skills_name">Frontend</h3>
-                  <span className="skills_number"></span>
+                  <span className="skills_number frontend"></span>
                 </div>
                 <div className="skills_bar">
                   <span className="skill_perc">45%</span>
@@ -31,7 +32,7 @@ const About = () => {
               <div className="skills_data">
                 <div className="skills_titles">
                   <h3 className="skills_name">UI/UX Design</h3>
-                  <span className="skills_number"></span>
+                  <span className="skills_number UIUX" ></span>
                 </div>
                 <div className="skills_bar">
                   <span className="skill_perc">30%</span>
@@ -41,7 +42,7 @@ const About = () => {
               <div className="skills_data">
                 <div className="skills_titles">
                   <h3 className="skills_name">Backend</h3>
-                  <span className="skills_number"></span>
+                  <span className="skills_number backend"></span>
                 </div>
                 <div className="skills_bar">
                   <span className="skill_perc">45%</span>
