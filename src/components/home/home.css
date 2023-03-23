@@ -25,7 +25,7 @@
 }
 
 .home_network_link {
-    display: inline-flex;
+    display: inline-flx;
     align-items: center;
     justify-content: center;
     height: 3.5rem;
